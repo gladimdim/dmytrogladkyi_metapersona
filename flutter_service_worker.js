@@ -4,9 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "88032042c819bd8b16c3a76b2bef1b5d",
-"index.html": "53d82fabd438b98eb96866e08111fa55",
-"/": "53d82fabd438b98eb96866e08111fa55",
-"main.dart.js": "42d74cbf18f4e0e870885aabe53d957c",
+"index.html": "5b1f8f284558c2771468e2ab398447c5",
+"/": "5b1f8f284558c2771468e2ab398447c5",
+"main.dart.js": "d714b0f5c6d5efc988cf064b826cd268",
 "catalog/posts/flutter_animate_interactive_viewer_fly_over_the_map/final_animation.gif": "1778e18bac5637672d2dc4b1ad621bf5",
 "catalog/posts/flutter_animate_interactive_viewer_fly_over_the_map/content.md": "2a05114d014c6c5a2654e5aa2a5482cc",
 "catalog/posts/flutter_animate_interactive_viewer_fly_over_the_map/screen_4.png": "a478f4222b7e1882e5369bbc3c1eab96",
