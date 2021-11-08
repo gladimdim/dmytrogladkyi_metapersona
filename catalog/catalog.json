@@ -96,6 +96,30 @@
         "Слобода",
         "Ігри"
       ]
+    },
+    {
+      "id": "flutter_implement_and_design_researches_in_game",
+      "title": "Імплементація та дизайн Досліджень для гри на Flutter / Dart",
+      "author": "Dmytro Gladkyi",
+      "thumbnail": "thumbnail.png",
+      "dateAdded": "2020-11-09",
+      "tags": [
+        "Слобода",
+        "Ігри",
+        "flutter",
+        "dart"
+      ]
+    },
+    {
+      "id": "dart_how_to_test_async_methods",
+      "title": "FakeAsync and Clock as Rescuers for Your async Game Logic Tests",
+      "author": "Dmytro Gladkyi",
+      "thumbnail": "thumbnail.png",
+      "dateAdded": "2020-11-02",
+      "tags": [
+        "flutter",
+        "dart"
+      ]
     }
   ]
 }

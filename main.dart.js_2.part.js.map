@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "engine": "v2",
+  "file": "main.dart.js_2.part.js",
+  "sourceRoot": "",
+  "sources": ["../../../../../progs/flutter/.pub-cache/hosted/pub.dartlang.org/share_plus-3.0.4/lib/share_plus.dart","../../../../../progs/flutter/.pub-cache/hosted/pub.dartlang.org/share_plus_platform_interface-2.0.1/lib/share_plus_platform_interface.dart"],
+  "names": ["Share.share","Share._platform","_platform","instance"],
+  "mappings": "A;;GA0DsBA,aA5BdA;AAAJA,YCPmCC;ADyC5BD,QAAPA,uBAKFA,C",
+  "x_org_dartlang_dart2js": {
+    "minified_names": {
+      "global": "",
+      "instance": ""
+    },
+    "frames": "iLAgEWEiBA1BwBCU,A;"
+  }
+}
