@@ -1,0 +1,12 @@
+{
+  "id": "flutter_in_game_notifications",
+  "title": "Add in-game Notifications to Flutter Game",
+  "markdownContentUrl": "content.md",
+  "author": "Dmytro Gladkyi",
+  "thumbnail": "thumbnail.jpg",
+  "dateAdded": "2020-10-13",
+  "tags": [
+    "flutter",
+    "dart"
+  ]
+}
