@@ -11118,7 +11118,7 @@ _.c=c
 _.d=d
 _.$ti=e},
 T_:function T_(){},
-ys(a,b){return new A.o0(a,b,null)},
+ys(a,b,c){return new A.o0(a,b,c,null)},
 as_(a){var s=a.nI(t.Np)
 if(s!=null)return s
 throw A.c(A.a07(A.a([A.vS("Scaffold.of() called with a context that does not contain a Scaffold."),A.bk("No Scaffold ancestor could be found starting from the context that was passed to Scaffold.of(). This usually happens when the context provided is from the same StatefulWidget as that whose build function actually creates the Scaffold widget being sought."),A.a_F('There are several ways to avoid this problem. The simplest is to use a Builder to get a context that is "under" the Scaffold. For an example of this, please see the documentation for Scaffold.of():\n  https://api.flutter.dev/flutter/material/Scaffold/of.html'),A.a_F("A more efficient solution is to split your build function into several widgets. This introduces a new context from which you can obtain the Scaffold. In this solution, you would have an outer widget that creates the Scaffold populated by instances of your new inner widgets, and then in these inner widgets you would use Scaffold.of().\nA less elegant but more expedient solution is assign a GlobalKey to the Scaffold, then use the key.currentState property to obtain the ScaffoldState rather than using the Scaffold.of() function."),a.a8H("The context used was")],t.qe)))},
@@ -11206,9 +11206,11 @@ _.b=c
 _.c=null},
 ae4:function ae4(a,b){this.a=a
 this.b=b},
-o0:function o0(a,b,c){this.e=a
-this.f=b
-this.a=c},
+o0:function o0(a,b,c,d){var _=this
+_.e=a
+_.f=b
+_.fx=c
+_.a=d},
 qD:function qD(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
 _.d=a
 _.e=b
@@ -44921,8 +44923,8 @@ a1n(){var s,r=this.c
 r.toString
 s=A.iY(r)
 if(s!=null&&s.d.length!==0)s.iD(0,B.aL,B.bI)},
-glB(){this.a.toString
-return!0},
+glB(){var s=this.a.fx
+return s!==!1},
 bd(){var s,r=this,q=null
 r.bM()
 s=r.c
@@ -44973,81 +44975,73 @@ oQ(a,b,c,d,e,f,g){return this.xx(a,b,c,!1,!1,d,e,f,g)},
 xw(a,b,c,d,e,f,g,h){return this.xx(a,b,c,d,!1,e,f,g,h)},
 FM(a,b){this.a.toString},
 FL(a,b){this.a.toString},
-N(a0,a1){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f="_floatingActionButtonMoveController",e="_geometryNotifier",d={},c=a1.a_(t.l).f,b=A.an(a1),a=a1.a_(t.I)
-a.toString
-s=a.f
-h.z=c.z
-a=h.Q
-if(!a.gO(a)){r=A.Lj(a1,t.X)
-if(r==null||r.gjI())g.gab4()
-else{q=h.cx
+N(a,a0){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g="_floatingActionButtonMoveController",f="_geometryNotifier",e={},d=a0.a_(t.l).f,c=A.an(a0),b=a0.a_(t.I)
+b.toString
+s=b.f
+i.z=d.z
+b=i.Q
+if(!b.gO(b)){r=A.Lj(a0,t.X)
+if(r==null||r.gjI())h.gab4()
+else{q=i.cx
 if(q!=null)q.aU(0)
-h.cx=null}}p=A.a([],t.s9)
-q=h.a.f
-h.glB()
-h.Xg(p,new A.PN(q,!1,!1,g),B.hs,!0,!1,!1,!1,!0)
-if(h.k3)h.oQ(p,A.ara(!0,h.k4,!1,g),B.hv,!0,!0,!0,!0)
-q=h.a
-q=h.f=A.aB9(a1,q.e.k2)+c.f.b
-o=h.a.e
-h.oQ(p,new A.eU(new A.ap(0,1/0,0,q),new A.vW(1,q,q,q,g,o,g),g),B.ht,!0,!1,!1,!1)
-d.a=!1
-d.b=null
-if(h.dy!=null||h.dx.length!==0){q=A.aE(h.dx,!0,t.l7)
-o=h.dy
+i.cx=null}}p=A.a([],t.s9)
+q=i.a.f
+i.Xg(p,new A.PN(q,!1,!1,h),B.hs,i.glB(),!1,!1,!1,!0)
+if(i.k3)i.oQ(p,A.ara(!0,i.k4,!1,h),B.hv,!0,!0,!0,!0)
+q=i.a
+q=i.f=A.aB9(a0,q.e.k2)+d.f.b
+o=i.a.e
+i.oQ(p,new A.eU(new A.ap(0,1/0,0,q),new A.vW(1,q,q,q,h,o,h),h),B.ht,!0,!1,!1,!1)
+e.a=!1
+e.b=null
+if(i.dy!=null||i.dx.length!==0){q=A.aE(i.dx,!0,t.l7)
+o=i.dy
 if(o!=null)q.push(o.a)
-n=A.rf(B.k8,q,B.c1,g,g)
-h.glB()
-h.oQ(p,n,B.hw,!0,!1,!1,!0)}q=h.cy
+i.oQ(p,A.rf(B.k8,q,B.c1,h,h),B.hw,i.glB(),!1,!1,!0)}q=i.cy
 if(q!=null){q.a.ga77()
-d.a=!1
-q=h.cy
-if(q==null)m=g
+e.a=!1
+q=i.cy
+if(q==null)n=h
 else{q=q.a
-m=q.gaT(q)}d.b=m
-q=h.cy
-q=q==null?g:q.a
-h.a.toString
-h.glB()
-h.xw(p,q,B.cC,!1,!1,!1,!1,!0)}if(!a.gO(a)){a.gK(a).a.ga77()
-d.a=!1
-q=a.gK(a).a
-d.b=q.gaT(q)
-a=a.gK(a).a
-h.a.toString
-h.glB()
-h.xw(p,a,B.cC,!1,!1,!1,!1,!0)}d.c=!1
-if(h.db!=null){a1.a_(t.iB)
-a=A.an(a1)
-q=h.db
-l=a.al.c
-d.c=(l==null?0:l)!==0
-a=q==null?g:q.a
-h.a.toString
-h.glB()
-h.xw(p,a,B.hx,!1,!0,!1,!1,!0)}h.a.toString
-a=A.b(h.fx,f)
-q=A.b(h.fy,"_floatingActionButtonAnimator")
-o=A.b(h.k2,e)
-k=A.b(h.k1,u.Z)
-h.a.toString
-h.oQ(p,new A.As(g,a,q,o,k,g),B.hy,!0,!0,!0,!0)
-switch(b.r.a){case 2:case 4:h.oQ(p,A.pz(B.bh,g,B.aw,!0,g,g,g,g,g,g,g,g,g,g,g,h.ga1m(),g,g,g,g,g,g),B.hu,!0,!1,!1,!0)
+n=q.gaT(q)}e.b=n
+q=i.cy
+q=q==null?h:q.a
+i.a.toString
+i.xw(p,q,B.cC,!i.glB(),!1,!1,!1,!0)}if(!b.gO(b)){b.gK(b).a.ga77()
+e.a=!1
+q=b.gK(b).a
+e.b=q.gaT(q)
+b=b.gK(b).a
+i.a.toString
+i.xw(p,b,B.cC,!i.glB(),!1,!1,!1,!0)}e.c=!1
+if(i.db!=null){a0.a_(t.iB)
+b=A.an(a0)
+q=i.db
+m=b.al.c
+e.c=(m==null?0:m)!==0
+b=q==null?h:q.a
+i.a.toString
+i.xw(p,b,B.hx,!i.glB(),!0,!1,!1,!0)}i.a.toString
+b=A.b(i.fx,g)
+q=A.b(i.fy,"_floatingActionButtonAnimator")
+o=A.b(i.k2,f)
+l=A.b(i.k1,u.Z)
+i.a.toString
+i.oQ(p,new A.As(h,b,q,o,l,h),B.hy,!0,!0,!0,!0)
+switch(c.r.a){case 2:case 4:i.oQ(p,A.pz(B.bh,h,B.aw,!0,h,h,h,h,h,h,h,h,h,h,h,i.ga1m(),h,h,h,h,h,h),B.hu,!0,!1,!1,!0)
 break
-case 0:case 1:case 3:case 5:break}a=h.x
-if(A.u(a).h("e2.T").a(a.y)){h.FL(p,s)
-h.FM(p,s)}else{h.FM(p,s)
-h.FL(p,s)}h.glB()
-a=c.e.d
-j=c.f.ux(a)
-h.glB()
-a=a!==0?0:g
-i=c.r.ux(a)
-if(j.d<=0)h.a.toString
-h.a.toString
-A.b(h.k2,e)
-h.a.toString
-return new A.TE(!1,new A.yA(A.wS(B.aj,!0,g,A.iw(A.b(h.fx,f),new A.a7J(d,h,!1,j,i,s,p),g),B.I,b.fy,0,g,g,g,g,B.e1),g),g)}}
+case 0:case 1:case 3:case 5:break}b=i.x
+if(A.u(b).h("e2.T").a(b.y)){i.FL(p,s)
+i.FM(p,s)}else{i.FM(p,s)
+i.FL(p,s)}b=i.glB()?d.e.d:0
+k=d.f.ux(b)
+b=i.glB()&&d.e.d!==0?0:h
+j=d.r.ux(b)
+if(k.d<=0)i.a.toString
+i.a.toString
+A.b(i.k2,f)
+i.a.toString
+return new A.TE(!1,new A.yA(A.wS(B.aj,!0,h,A.iw(A.b(i.fx,g),new A.a7J(e,i,!1,k,j,s,p),h),B.I,c.fy,0,h,h,h,h,B.e1),h),h)}}
 A.a7K.prototype={
 $1(a){var s=this.b
 if((s.a.a&30)===0)s.cl(0,this.c)},
@@ -67316,7 +67310,7 @@ A.uT.prototype={
 aQ(){return new A.zY(new A.DM(new A.aM(new A.X($.V,t.LR),t.zh),t.tR),B.n)}}
 A.zY.prototype={
 N(a,b){var s=null
-return A.ys(A.uE(s,A.cr(A.e_(b,B.bb,t.wr).gNM(),s,s,s,s,s,s)),A.hE(A.a([A.hM(new A.bf(B.IC,new A.yJ(this.gZA(),s),s),1),A.hM(A.a0x(new A.ad5(this),this.Zz(),t.X),10)],t.p),B.aa,B.al,B.a5))},
+return A.ys(A.uE(s,A.cr(A.e_(b,B.bb,t.wr).gNM(),s,s,s,s,s,s)),A.hE(A.a([A.hM(new A.bf(B.IC,new A.yJ(this.gZA(),s),s),1),A.hM(A.a0x(new A.ad5(this),this.Zz(),t.X),10)],t.p),B.aa,B.al,B.a5),!1)},
 Zz(){var s=this.d,r=s.a,q=r.a
 if((q.a&30)===0)r.cl(0,A.aCO(new A.ad1(),s.$ti.c))
 return q},
@@ -67402,7 +67396,7 @@ s.oK(0,s.a.pS(B.ba,B.en,""))},
 $S:0}
 A.HR.prototype={
 N(a,b){var s=null
-return A.ys(A.uE(s,A.cr(A.e_(b,B.bb,t.wr).gDC(),s,s,s,s,s,s)),A.a0x(new A.a_N(this),this.ta(),t.a))},
+return A.ys(A.uE(s,A.cr(A.e_(b,B.bb,t.wr).gDC(),s,s,s,s,s,s)),A.a0x(new A.a_N(this),this.ta(),t.a),s)},
 ta(){var s=0,r=A.a1(t.a),q,p
 var $async$ta=A.Y(function(a,b){if(a===1)return A.Z(b,r)
 while(true)switch(s){case 0:s=3
@@ -67475,7 +67469,7 @@ A.hF.prototype={
 gaN(a){return this.a}}
 A.Jm.prototype={
 N(a,b){var s=null,r=t.wr,q=A.cr(A.e_(b,B.bb,r).gOp(),s,s,s,s,s,s),p=t.p
-return A.ys(A.uE(A.a([A.pD(s,B.J6,24,new A.a3j(b),s)],p),q),A.l7(new A.bf(B.Q,A.hE(A.a([A.app(A.hb(A.a([A.hM(new A.bf(B.Q,new A.F4(B.Do,A.aqA("assets/images/profile/green_round_avatar.jpg",s,128),s),s),1),A.hM(new A.bf(B.Q,A.hE(A.a([A.cr("Dmytro Gladkyi",s,s,s,A.an(b).T.f,s,s),A.cr("Flutter Developer \ud83d\udc99 since 2018",s,s,s,A.an(b).T.r,s,s),A.cr("JavaScript developer since 2012",s,s,s,A.an(b).T.r,s,s)],p),B.aa,B.al,B.a5),s),5)],p),B.aa,B.fZ,B.a5,s),s),A.hb(A.a([A.hM(new A.bf(B.Q,new A.q3(A.e_(b,B.bb,r).gPl(),new A.a3k(this,b),s),s),1),A.hM(new A.bf(B.Q,new A.q3(A.e_(b,B.bb,r).gPm(),s,s),s),1)],p),B.aa,B.al,B.a5,s),new A.bf(B.Q,new A.q3(A.e_(b,B.bb,r).gDC(),new A.a3l(this,b),s),s)],p),B.aa,B.al,B.a5),s),s,s))}}
+return A.ys(A.uE(A.a([A.pD(s,B.J6,24,new A.a3j(b),s)],p),q),A.l7(new A.bf(B.Q,A.hE(A.a([A.app(A.hb(A.a([A.hM(new A.bf(B.Q,new A.F4(B.Do,A.aqA("assets/images/profile/green_round_avatar.jpg",s,128),s),s),1),A.hM(new A.bf(B.Q,A.hE(A.a([A.cr("Dmytro Gladkyi",s,s,s,A.an(b).T.f,s,s),A.cr("Flutter Developer \ud83d\udc99 since 2018",s,s,s,A.an(b).T.r,s,s),A.cr("JavaScript developer since 2012",s,s,s,A.an(b).T.r,s,s)],p),B.aa,B.al,B.a5),s),5)],p),B.aa,B.fZ,B.a5,s),s),A.hb(A.a([A.hM(new A.bf(B.Q,new A.q3(A.e_(b,B.bb,r).gPl(),new A.a3k(this,b),s),s),1),A.hM(new A.bf(B.Q,new A.q3(A.e_(b,B.bb,r).gPm(),s,s),s),1)],p),B.aa,B.al,B.a5,s),new A.bf(B.Q,new A.q3(A.e_(b,B.bb,r).gDC(),new A.a3l(this,b),s),s)],p),B.aa,B.al,B.a5),s),s,s),s)}}
 A.a3j.prototype={
 $0(){A.a4u(this.a,"/settings")},
 $S:0}
@@ -67511,7 +67505,7 @@ A.a5O.prototype={
 $2(a,b){var s,r=null,q=b.a===B.dx&&b.b!=null,p=this.a,o=t.p
 if(q){s=t.Yl.a(b.b)
 q=A.cr(s.b,r,r,r,r,r,r)
-return A.ys(A.uE(A.a([A.pD(r,B.J4,24,new A.a5L(p,s),r),A.pD(r,B.J9,24,new A.a5M(p,s),r)],o),q),A.l7(new A.eU(B.DB,A.a0x(new A.a5N(p,s),A.av4("flutter_markdown"),t.z),r),r,r))}else return A.ys(A.uE(r,A.cr(p.c,r,r,r,r,r,r)),A.hE(A.a([A.cr(A.e_(a,B.bb,t.wr).gNN(),r,r,r,r,r,r),B.hM],o),B.aa,B.al,B.a5))},
+return A.ys(A.uE(A.a([A.pD(r,B.J4,24,new A.a5L(p,s),r),A.pD(r,B.J9,24,new A.a5M(p,s),r)],o),q),A.l7(new A.eU(B.DB,A.a0x(new A.a5N(p,s),A.av4("flutter_markdown"),t.z),r),r,r),r)}else return A.ys(A.uE(r,A.cr(p.c,r,r,r,r,r,r)),A.hE(A.a([A.cr(A.e_(a,B.bb,t.wr).gNN(),r,r,r,r,r,r),B.hM],o),B.aa,B.al,B.a5),r)},
 $S:396}
 A.a5L.prototype={
 $0(){A.v4(new A.mO(A.zG().j(0)))
@@ -67618,7 +67612,7 @@ case 1:return A.a_(q,r)}})
 return A.a0($async$vQ,r)}}
 A.NH.prototype={
 N(a,b){var s=null,r=this.c,q=t.p
-return A.ys(A.uE(s,A.cr(A.e_(b,B.bb,t.wr).gEv(),s,s,s,s,s,s)),A.hE(A.a([new A.bf(B.i0,A.aq4(B.RL,r.gadO(),A.b(r.c,"_themeMode"),t.jm),s),A.hb(A.a([B.a32,A.aq4(B.Lc,r.gadK(),r.a,t.da)],q),B.aa,B.wZ,B.a5,s)],q),B.dy,B.al,B.a5))}}
+return A.ys(A.uE(s,A.cr(A.e_(b,B.bb,t.wr).gEv(),s,s,s,s,s,s)),A.hE(A.a([new A.bf(B.i0,A.aq4(B.RL,r.gadO(),A.b(r.c,"_themeMode"),t.jm),s),A.hb(A.a([B.a32,A.aq4(B.Lc,r.gadK(),r.a,t.da)],q),B.aa,B.wZ,B.a5,s)],q),B.dy,B.al,B.a5),s)}}
 A.YI.prototype={
 a6y(a,b){var s,r=null
 A.aun("absolute",A.a([b,null,null,null,null,null,null],t._m))
