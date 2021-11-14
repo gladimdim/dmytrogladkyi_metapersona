@@ -106,8 +106,7 @@
       "tags": [
         "Слобода",
         "Ігри",
-        "flutter",
-        "dart"
+        "flutter"
       ]
     },
     {
@@ -197,8 +196,6 @@
       "dateAdded": "2020-07-13",
       "tags": [
         "flutter",
-        "dart",
-        "gamedev",
         "Ігри",
         "Слобода"
       ]
@@ -309,6 +306,33 @@
         "flutter",
         "dart"
       ]
+    },
+    {
+      "id": "flutter-tips-how-to-avoid-blinking-of-images-when-they-are-loaded-for-the-first-time",
+      "title": "Flutter Tips: How to avoid blinking of images when they are loaded for the first time",
+      "dateAdded": "2019-06-20",
+      "tags": [
+        "flutter",
+        "dart"
+      ]
+    },
+    {
+      "id": "do-not-quit-or-how-i-resurrected-my-7-years-old-idea",
+      "title": "Do not Quit. Or how I resurrected my 7 years old idea",
+      "dateAdded": "2019-05-22",
+      "tags": [
+        "gamedev"
+      ]
+    },
+    {
+      "id": "road-to-flutter-and-dart",
+      "title": "Road to #Flutter and #Dart",
+      "dateAdded": "2019-05-15",
+      "tags": [
+        "flutter",
+        "dart"
+      ],
+      "thumbnail": "thumbnail.png"
     }
   ]
 }
