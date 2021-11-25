@@ -4,15 +4,15 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "micro/micros.json": "4ca4e0acf607bd93b2396cbb7eaa6d93",
-"micro/storage/sloboda_unity_pick.png": "17c4ae285bdef5ec7d90c11b8edc937d",
-"micro/storage/google_play_stats.png": "a08457576bbd5476df8d6958e7e231c8",
+"micro/storage/sloboda_unity_pick.png": "54492d9c5f3b251796dbe222d613a9b4",
+"micro/storage/google_play_stats.png": "cf49f4cb5ddcc98b1ce568725a039825",
 "micro/storage/4.png": "18512aae6093bbbebd28d24f3258da57",
 "micro/storage/3.png": "fdb0cf5fccff324d6f291a5b332102d0",
 "micro/storage/screen_md.png": "09ef5a04277efd78470ccd75b3fdcf0d",
 "version.json": "88032042c819bd8b16c3a76b2bef1b5d",
-"index.html": "5ca1f1eeb284e29c9d8da2121a737331",
-"/": "5ca1f1eeb284e29c9d8da2121a737331",
-"main.dart.js": "62e2aea8eb310c53eda4327d3bf2008b",
+"index.html": "098399dd6198828258613cc2fbc58de6",
+"/": "098399dd6198828258613cc2fbc58de6",
+"main.dart.js": "ea64f1a80662578df7c839f1e2259b39",
 "catalog/posts/decode-and-encode-json-in-reasonml/content.md": "0b9b8fec00f370392874be90336a245a",
 "catalog/posts/decode-and-encode-json-in-reasonml/post.json": "52eca3d60ca6563ed38c00e7f19f0451",
 "catalog/posts/flutter_animate_interactive_viewer_fly_over_the_map/final_animation.gif": "1778e18bac5637672d2dc4b1ad621bf5",
@@ -263,9 +263,9 @@ const RESOURCES = {
 "icons/favicon-32x32.png": "64658662466bb987f195f4f14a9ee51a",
 "icons/ms-icon-70x70.png": "bb48fa09a12f6c49c38a8cda9503a481",
 "manifest.json": "cd36c0a7efb2c54c7033ef449a703c38",
-"main.dart.js_1.part.js": "a2d7f8ef2458ff67a5f20b50ce8a26df",
+"main.dart.js_1.part.js": "8931b920fd1fe2fd72728e9bde797b1e",
 "assets/AssetManifest.json": "39603be222a03e070b2ef6db299dd1c9",
-"assets/NOTICES": "022595a246ac0ed7afcf0e8d199cb5ea",
+"assets/NOTICES": "ab0c9ed72a7226aea546000c4cab0b91",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/assets/images/flutter_logo.png": "478970b138ad955405d4efda115125bf",
@@ -281,11 +281,11 @@ const RESOURCES = {
 "assets/google_fonts/Merriweather-Italic.ttf": "498bf4ee4ac9fab22ad9f814839173b2",
 "assets/google_fonts/Merriweather-Black.ttf": "bfc959a1d3a785caff07d85f82f3e513",
 "assets/google_fonts/Merriweather-LightItalic.ttf": "4deed44b6913721447f062c9fa8caac6",
-"main.dart.js_2.part.js": "4384b38e60cc86a7a27e39571d767041",
-"canvaskit/canvaskit.js": "43fa9e17039a625450b6aba93baf521e",
-"canvaskit/profiling/canvaskit.js": "f3bfccc993a1e0bfdd3440af60d99df4",
-"canvaskit/profiling/canvaskit.wasm": "a9610cf39260f60fbe7524a785c66101",
-"canvaskit/canvaskit.wasm": "04ed3c745ff1dee16504be01f9623498"
+"main.dart.js_2.part.js": "9f5292ab5f7e4504a6df71f41b722d49",
+"canvaskit/canvaskit.js": "62b9906717d7215a6ff4cc24efbd1b5c",
+"canvaskit/profiling/canvaskit.js": "3783918f48ef691e230156c251169480",
+"canvaskit/profiling/canvaskit.wasm": "6d1b0fc1ec88c3110db88caa3393c580",
+"canvaskit/canvaskit.wasm": "b179ba02b7a9f61ebc108f82c5a1ecdb"
 };
 
 // The application shell files that are downloaded before a service worker can
