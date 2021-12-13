@@ -4,6 +4,8 @@ So everyone is now discovering new possibilities and that you can spawn a subpro
 
 Read more about Isolates: [https://api.dart.dev/stable/2.15.0/dart-isolate/Isolate-class.html](https://api.dart.dev/stable/2.15.0/dart-isolate/Isolate-class.html)
 
+Read my other article [Flutter: Unblocking UI thread with Isolates compute function](http://dmytrogladkyi.com/#/catalog/posts/flutter-unblocking-ui-thread-with-isolates-compute-function)
+
 # GLAD TOOLS
 
 I keep improving my [GladTools](https://github.com/gladimdim/glad_tools/) tool belt from week to week.
