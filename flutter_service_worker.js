@@ -321,11 +321,11 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "150d8334e5125ecf9bc9bb41dc27e5bf",
 "icons/ms-icon-310x310.png": "da4a70e84c0559eef338fbc83be96df9",
 "icons/ms-icon-70x70.png": "bb48fa09a12f6c49c38a8cda9503a481",
-"index.html": "4fbce2b2858b6da545fc257ed6db4712",
-"/": "4fbce2b2858b6da545fc257ed6db4712",
-"main.dart.js": "46b84be9ae11a949319ec438776e6d9f",
-"main.dart.js_1.part.js": "524ba82076fba877d86b8bc64b7fbb7c",
-"main.dart.js_2.part.js": "be1da66459621dff8a3af3f78595a26b",
+"index.html": "815dd0f512a8e967eb57de37d07fdbd0",
+"/": "815dd0f512a8e967eb57de37d07fdbd0",
+"main.dart.js": "77a7bb49766307822abe6a79bb546cd1",
+"main.dart.js_1.part.js": "9ca7a26d84e9e27fa2a72a14c39a2c74",
+"main.dart.js_2.part.js": "b546b7dec16ec36ff2fa00d66c1c4bb2",
 "manifest.json": "552b63626b9b177d944a4b5c7b463bd8",
 "micro/micros.json": "2f07cbe2cbc1977134d1b4f3a2975947",
 "micro/storage/3.png": "fdb0cf5fccff324d6f291a5b332102d0",
@@ -336,7 +336,8 @@ const RESOURCES = {
 "micro/storage/screen_md.png": "09ef5a04277efd78470ccd75b3fdcf0d",
 "micro/storage/sloboda_unity_pick.png": "54492d9c5f3b251796dbe222d613a9b4",
 "profile/experience/experiences.json": "98a576fceddf699052e3f46bd31d62cf",
-"profile/profile.json": "5cf08ad82cde8ce520a96022f49e1fa8",
+"profile/green_round_avatar.jpg": "9c24bcf8607f75201a567d135c80dbe9",
+"profile/profile.json": "e0f3ebd9606bdc17308977b516acaf3f",
 "version.json": "88032042c819bd8b16c3a76b2bef1b5d"
 };
 
