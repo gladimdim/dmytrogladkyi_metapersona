@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(node:*)",
+      "Bash(dir:*)",
+      "Bash(cmd /c \"dir C:\\\\Users\\\\Admin\\\\GitHub\\\\dmytrogladkyi_metapersona\\\\DG_MetaVault\\\\content\")",
+      "Bash(cmd /c \"dir /s /b C:\\\\Users\\\\Admin\\\\GitHub\\\\dmytrogladkyi_metapersona\\\\DG_MetaVault\\\\content 2>&1 | head -20\")",
+      "Bash(cmd /c \"dir C:\\\\Users\\\\Admin\\\\GitHub\\\\dmytrogladkyi_metapersona\\\\DG_MetaVault\\\\content\\\\Articles 2>&1\")",
+      "Bash(powershell -Command \"Get-ChildItem 'C:\\\\Users\\\\Admin\\\\GitHub\\\\dmytrogladkyi_metapersona\\\\DG_MetaVault' -Recurse -Name | Select-Object -First 30\")",
+      "Bash(powershell -Command \"Get-ChildItem 'C:\\\\Users\\\\Admin\\\\GitHub\\\\dmytrogladkyi_metapersona\\\\DG_MetaVault\\\\content' -Recurse -Name | Select-Object -First 10\")"
+    ]
+  }
+}
